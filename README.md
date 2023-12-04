@@ -12,6 +12,7 @@ Notera att lösningen ska uppfylla krav på följande relationer mellan klassern
 - en artist "har" en genre
 - ett album "har" en genre
 
+Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
 
 Nedan följer detaljer för varje klass som du ska implementera.
 
