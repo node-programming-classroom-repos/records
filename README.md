@@ -7,7 +7,7 @@ Syftet med uppgiften är att hantera klasser i separata filer samt relationer me
 
 Systemet du ska implementera är alltså klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. 
 Notera att lösningen ska uppfylla krav på följande relationer mellan klasserna;
-- skivbolag "äger"/innehåller FLERA album 
+- skivbolag "har"/innehåller FLERA album 
 - album "har"/innehåller FLERA låtar och EN artist.
 - en artist "har" en genre
 - ett album "har" en genre
