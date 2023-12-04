@@ -31,6 +31,7 @@ Du ska implementera klasserna enligt nedan krav.**
     - implementera en metod för att visa/skriva ut information om artisten. 
 
 
+
     Genre
     ======
     
@@ -45,15 +46,16 @@ Du ska implementera klasserna enligt nedan krav.**
 
     representerar ett album med låtar (Song-objekt)
     - attribut för klassen ska vara id, title, artist, genre och songs (vilket ska vara en array med Song-objekt).
-    - implementera en metod för att visa information om albumet, inklusive dess låtar (alla låtar som tillhör albumet, dvs Song-objekten, ska också visas/skrivas ut).
+    - implementera en metod för att visa/skriva ut all information om albumet, inklusive genre och dess låtar (alla låtar som tillhör albumet, dvs Song-objekten, ska också visas/skrivas ut).
     - implementera en metod addSong, som lägger till en låt (ett Song-objekt) till albumet
+
 
     
     Song
     =====
     klassen Song ska representera en låt.
     - attributen ska vara id, title och playCount.
-    - implementera en metod för att "spela" låten och öka playCount (playCount är alltså en räknar för antal spelningar/streams av låten).
+    - implementera en metod för att "spela" låten och öka playCount (playCount är alltså en räknare för antal spelningar/streams av låten).
     - implementera en metod som returnerar värdet för playCount
     - implementera en metod för att visa/skriva ut information om låten.
 
@@ -65,6 +67,8 @@ Du ska implementera klasserna enligt nedan krav.**
     - attributen ska vara id, name, headOfficeAddress, albums (en array med Album-objekt)
     - implementera en metod för att visa/skriva ut information om skivbolaget.
 
+
+
     User
     ======
     denna klass representerar en användare som spelar låtar  
@@ -73,23 +77,27 @@ Du ska implementera klasserna enligt nedan krav.**
     - implementera en metod för att visa/skriva ut användarinformation.
     - implementera en metod som kan visa information/skriva ut vilka titlarna på de låtar (Song) en användare har spelat/lyssnat på.
 
+
+
     app.js
     =====
     Detta script ska vara "systemets"/din lösnings entry point.
+    Den ska kunna köras med kommandot $node app.js utan fel och innehålla följande;
     
-    I detta script ska du skapa några genrer, skivbolag, artister, album och låtar.
+    I scriptet ska du skapa några genrer, skivbolag, artister, album och låtar.
     Skriv ut information om respektive objekt du skapar via dess metoder som ska visa/skriva ut information. 
     Skapa några användare (user objekt) som var och en spelar ett antal olika låtar.
     
-    Låt användaren välja en genre och visa artister inom den genren.
-    Låt användaren välja en artist, visa dess album och låtar och låt användaren spela låtarna.
+    
     Simulera beräkning av royalties efter att användaren har spelat låtarna.
 
     
 **Frivilligt**
 Följande är inget krav, men för dig som redan har kunskaper och vill göra extra kan implementera nedanstående:
 
-- Implementera möjligheten att lägga till nya genrer, skivbolag, artister, album och låtar i systemet.        
+- Implementera möjligheten att lägga till nya genrer, skivbolag, artister, album och låtar i systemet.
+- Vid körning av scriptet ska man kunna välja en genre och visa artister inom den genren.
+- Vid körning av scriptet ska man kunnan välja en artist, visa dess album och låtar och låt användaren spela låtarna.        
 - Implementera felhantering för ogiltiga inmatningar från användaren.
 - Gör en webbapplikation med Express av din lösning. Gör sidor/routes för ett låtbibliotek och möjlighet att spela låtar.
 - Använd Spotifys API (om du har konto) för att skapa låtar, album etc med data ifrån Spotify.
