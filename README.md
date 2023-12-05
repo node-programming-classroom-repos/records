@@ -1,10 +1,11 @@
-# records
+# Uppgift klasser och objekt - simulation av artister och skivbolag
 
-Uppgiftens syfte är att hantera klasser och objekt.
-Du ska simulera ett system med artister, skivbolag och album med låtar. 
-En simulering av att artisternas låtar spelas av användare ska göras.
-Syftet med uppgiften är att hantera klasser i separata filer samt relationer mellan klasser.
+## Syfte
+Syftet med uppgiften är du ska hantera klasser, relationer mellan klasser samt objekt/instanser av klasser.
+Kortfattat så ska du implementera grunden för ett system som simulerar artister, skivbolag, användare och album med låtar. 
+Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
 
+## Krav
 Systemet du ska implementera är alltså klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. 
 Notera att lösningen ska uppfylla krav på följande relationer mellan klasserna;
 - skivbolag "har"/innehåller FLERA album 
@@ -12,13 +13,11 @@ Notera att lösningen ska uppfylla krav på följande relationer mellan klassern
 - en artist "har" en genre
 - ett album "har" en genre
 
-Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
-
-Nedan följer detaljer för varje klass som du ska implementera.
 
 
 **Ett krav är att varje klass nedan ska implementeras i en separat fil.
-Du ska implementera klasserna enligt nedan krav.**
+
+Implementera klasserna enligt nedan krav.**
 
 
 
