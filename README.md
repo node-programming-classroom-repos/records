@@ -7,12 +7,15 @@ Det finns inget medföljande jest-test - du ska implementera din lösning enligt
 Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klasser och objekt och övergripande funktionalitet. Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
 ## Krav
-Systemet du ska implementera är alltså klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. En användare ska kunna spela låtar 
-Notera att lösningen ska uppfylla krav på följande relationer mellan klasserna;
-- skivbolag "har"/innehåller FLERA album. 
-- album "har"/innehåller FLERA låtar och EN artist.
-- en artist "har" en genre.
-- ett album "har" en genre.
+Systemet du ska implementera är ska innehålla klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. En användare ska kunna spela låtar och  
+- vissa av klasserna ska ha "relationer" med/till varandra. 
+Vilken typ av relation du väljer och hur du implementerar detta står dig fritt men nedastående krav ska uppfyllas. 
+Bland [övningarna](https://github.com/node-programming-classroom-repos/excercises-nodejs/tree/main/08%20-%20classes) finns exempel och förklaringar som hjälp.
+Följande relationer ska uppfyllas:
+    - skivbolag "har" FLERA (obegränsat antal) album. 
+    - album "har" FLERA låtar och EN artist.
+    - en artist innehåller EN genre.
+    - ett album innehåller EN genre.
 - respektive klass ska implementeras i en separat fil.
 - skriv beskrivande, korta och koncisa kommentarer i varje fil; exmpelvis för varje metod i klasserna. Skriv kommentarer i app.js som gör det enkelt att följa flödet och vad som händer i det scriptet.
 
@@ -98,6 +101,8 @@ Följande är inget krav, men för dig som redan har kunskaper och vill göra ex
 - Implementera felhantering för ogiltiga inmatningar från användaren.
 - Gör en webbapplikation med Express av din lösning. Gör 'sidor' och routes för ett låtbibliotek och möjlighet att spela låtar.
 - Använd Spotifys API (om du har konto) för att skapa låtar, album etc med data ifrån Spotify.
+- Implementera arv (inheritance) i din lösning. Exempelvis en superklass för en artist och subklasser för artister inom olika kategorier med specifika egenskapar.
+T ex artister inom film, musik, teater etc.
 
 
 **Tips**
