@@ -14,7 +14,7 @@ Notera att lösningen ska uppfylla krav på följande relationer mellan klassern
 - en artist "har" en genre.
 - ett album "har" en genre.
 - respektive klass ska implementeras i en separat fil.
-- skriv beskrivande, korta och koncisa kommentera varje fil; exmpelvis för varje metod i klasserna. Skriv kommentarer i app.js som gör det enkelt att följa flödet och vad som händer i det scriptet.
+- skriv beskrivande, korta och koncisa kommentarer i varje fil; exmpelvis för varje metod i klasserna. Skriv kommentarer i app.js som gör det enkelt att följa flödet och vad som händer i det scriptet.
 
 
 Implementera klasserna enligt nedan:
