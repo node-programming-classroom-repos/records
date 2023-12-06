@@ -22,6 +22,7 @@ Följande relationer ska uppfyllas:
 
 Implementera klasserna enligt nedan:
 
+![klasser](Klasser.png)
 
     Artist
     ======
