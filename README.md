@@ -8,6 +8,7 @@ Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klass
 Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
 ## Krav
+![Krav.png](krav.png)
 Systemet du ska implementera är ska innehålla klasser för att hantera artister, skivbolag med skivor innehållandes musik. En användare ska kunna också spela låtar och  
 - vissa av klasserna ska ha "relationer" med/till varandra. 
 Vilken typ av relation du väljer och hur du implementerar detta står dig fritt men nedastående krav ska uppfyllas. 
