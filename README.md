@@ -4,22 +4,20 @@
 Syftet med uppgiften är du ska hantera klasser, relationer mellan klasser samt objekt/instanser av klasser.
 Kortfattat så ska du implementera grunden för ett system som simulerar artister, skivbolag, användare och album med låtar. 
 Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
+Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klasser och objekt och övergripande funktionalitet. Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
 ## Krav
-Systemet du ska implementera är alltså klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. 
+Systemet du ska implementera är alltså klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. En användare ska kunna spela låtar 
 Notera att lösningen ska uppfylla krav på följande relationer mellan klasserna;
-- skivbolag "har"/innehåller FLERA album 
+- skivbolag "har"/innehåller FLERA album. 
 - album "har"/innehåller FLERA låtar och EN artist.
-- en artist "har" en genre
-- ett album "har" en genre
+- en artist "har" en genre.
+- ett album "har" en genre.
+- respektive klass ska implementeras i en separat fil.
+- skriv beskrivande, korta och koncisa kommentera varje fil; exmpelvis för varje metod i klasserna. Skriv kommentarer i app.js som gör det enkelt att följa flödet och vad som händer i det scriptet.
 
 
-
-**Ett krav är att varje klass nedan ska implementeras i en separat fil.
-
-Implementera klasserna enligt nedan krav.**
-
-
+Implementera klasserna enligt nedan:
 
 
     Artist
@@ -81,7 +79,7 @@ Implementera klasserna enligt nedan krav.**
 
     app.js
     =====
-    Detta script ska vara "systemets"/din lösnings entry point.
+    Detta script ska vara "systemets"/din lösnings entry point (main).
     Den ska kunna köras med kommandot $node app.js utan fel och innehålla följande;
     
     I scriptet ska du skapa några genrer, skivbolag, artister, album och låtar.
@@ -89,7 +87,6 @@ Implementera klasserna enligt nedan krav.**
     Skapa några användare (user objekt) som var och en spelar ett antal olika låtar.
     
     
-    Simulera beräkning av royalties efter att användaren har spelat låtarna.
 
     
 **Frivilligt**
@@ -99,10 +96,7 @@ Följande är inget krav, men för dig som redan har kunskaper och vill göra ex
 - Vid körning av scriptet ska man kunna välja en genre och visa artister inom den genren.
 - Vid körning av scriptet ska man kunnan välja en artist, visa dess album och låtar och låt användaren spela låtarna.        
 - Implementera felhantering för ogiltiga inmatningar från användaren.
-- Gör en webbapplikation med Express av din lösning. Gör sidor/routes för ett låtbibliotek och möjlighet att spela låtar.
+- Gör en webbapplikation med Express av din lösning. Gör 'sidor' och routes för ett låtbibliotek och möjlighet att spela låtar.
 - Använd Spotifys API (om du har konto) för att skapa låtar, album etc med data ifrån Spotify.
 
 
-    Du kommer att bedömas på korrekt användning av klasser och objekt, implementation av royalties, användarinteraktion, genrehantering, skivbolasrelation och övergripande funktionalitet.
-
-Kom ihåg att organisera koden i separata filer för varje klass och hålla den strukturerad. Lycka till med ditt utökade skivbolagssystem!
