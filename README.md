@@ -4,10 +4,11 @@
 Syftet med uppgiften är du ska hantera klasser, relationer mellan klasser samt objekt/instanser av klasser.
 Kortfattat så ska du implementera grunden för ett system som simulerar artister, skivbolag, användare och album med låtar. 
 Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
-Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klasser och objekt och övergripande funktionalitet. Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
+Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klasser och objekt och övergripande funktionalitet. 
+Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
 ## Krav
-Systemet du ska implementera är ska innehålla klasser för att hantera artister, album, låtar, genrer, skivbolag och användare. En användare ska kunna spela låtar och  
+Systemet du ska implementera är ska innehålla klasser för att hantera artister, skivbolag med skivor innehållandes musik. En användare ska kunna också spela låtar och  
 - vissa av klasserna ska ha "relationer" med/till varandra. 
 Vilken typ av relation du väljer och hur du implementerar detta står dig fritt men nedastående krav ska uppfyllas. 
 Bland [övningarna](https://github.com/node-programming-classroom-repos/excercises-nodejs/tree/main/08%20-%20classes) finns exempel och förklaringar som hjälp.
