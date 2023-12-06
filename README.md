@@ -9,89 +9,11 @@ Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive ind
 
 ## Krav
 ![krav](Krav.png)
-Systemet du ska implementera är ska innehålla klasser för att hantera artister, skivbolag med skivor innehållandes musik. En användare ska kunna också spela låtar och  
-- vissa av klasserna ska ha "relationer" med/till varandra. 
-Vilken typ av relation du väljer och hur du implementerar detta står dig fritt men nedastående krav ska uppfyllas. 
-Bland [övningarna](https://github.com/node-programming-classroom-repos/excercises-nodejs/tree/main/08%20-%20classes) finns exempel och förklaringar som hjälp.
-Följande relationer ska uppfyllas:
-    - skivbolag "har" FLERA (obegränsat antal) album. 
-    - album "har" FLERA låtar och EN artist.
-    - en artist innehåller EN genre.
-    - ett album innehåller EN genre.
-- respektive klass ska implementeras i en separat fil.
-- skriv beskrivande, korta och koncisa kommentarer i varje fil; exmpelvis för varje metod i klasserna. Skriv kommentarer i app.js som gör det enkelt att följa flödet och vad som händer i det scriptet.
 
 
 Implementera klasserna enligt nedan:
 
 ![klasser](Klasser.png)
-
-    Artist
-    ======
-
-    klassen ska representera en artist/band.
-    attribut ska finnas för
-    - id, name, genre och bio (biogragi/text om artisten/bandet).
-    - implementera en metod för att visa/skriva ut information om artisten. 
-
-
-
-    Genre
-    ======
-    
-    klassen Genre representerar en genre för en musikstil.
-    - attribut för id och name ska finnas.
-    - implementera en metod som skriver ut/visar information om objektet
-
-    
-
-    Album
-    =====
-
-    representerar ett album med låtar (Song-objekt)
-    - attribut för klassen ska vara id, title, artist, genre och songs (vilket ska vara en array med Song-objekt).
-    - implementera en metod för att visa/skriva ut all information om albumet, inklusive genre och dess låtar (alla låtar som tillhör albumet, dvs Song-objekten, ska också visas/skrivas ut).
-    - implementera en metod addSong, som lägger till en låt (ett Song-objekt) till albumet
-
-
-    
-    Song
-    =====
-    klassen Song ska representera en låt.
-    - attributen ska vara id, title och playCount.
-    - implementera en metod för att "spela" låten och öka playCount (playCount är alltså en räknare för antal spelningar/streams av låten).
-    - implementera en metod som returnerar värdet för playCount
-    - implementera en metod för att visa/skriva ut information om låten.
-
-
-
-    RecordLabel
-    =====
-    klassen RecordLabel representerar ett skivbolag. Ett skivbolag äger rättigheter til album vilket ska representeras av ett attribut med Album-objekt.
-    - attributen ska vara id, name, headOfficeAddress, albums (en array med Album-objekt)
-    - implementera en metod för att visa/skriva ut information om skivbolaget.
-
-
-
-    User
-    ======
-    denna klass representerar en användare som spelar låtar  
-    - attributen som ska implementeras ska vara id, name och playedSongs (en array för att hålla reda på vilka låtar användaren har spelat).
-    - implementera en metod för att spela en låt och håller reda på vilka låtar användaren har spelat.
-    - implementera en metod för att visa/skriva ut användarinformation.
-    - implementera en metod som kan visa information/skriva ut vilka titlarna på de låtar (Song) en användare har spelat/lyssnat på.
-
-
-
-    app.js
-    =====
-    Detta script ska vara "systemets"/din lösnings entry point (main).
-    Den ska kunna köras med kommandot $node app.js utan fel och innehålla följande;
-    
-    I scriptet ska du skapa några genrer, skivbolag, artister, album och låtar.
-    Skriv ut information om respektive objekt du skapar via dess metoder som ska visa/skriva ut information. 
-    Skapa några användare (user objekt) som var och en spelar ett antal olika låtar.
-    
     
 
     
