@@ -100,3 +100,9 @@ Följande är inget krav, men för dig som redan har kunskaper och vill göra ex
 - Använd Spotifys API (om du har konto) för att skapa låtar, album etc med data ifrån Spotify.
 
 
+**Tips**
+Du kan läsa mer om klasser och t ex relationer bland övningarna https://github.com/node-programming-classroom-repos/excercises-nodejs/tree/main/08%20-%20classes
+Börja i små steg - börja med att göra en klass och en metod. 
+Testkör din lösning via app.js där du t ex skapar objekt och anroper klassen metoder. Om allt är ok, bygg vidare.
+Självklart kan du skapa egna tester med t ex jest.
+
