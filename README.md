@@ -1,9 +1,9 @@
 # Uppgift klasser och objekt - simulation av artister och skivbolag
 
 ## Syfte
-Syftet med uppgiften är du ska hantera klasser, relationer mellan klasser samt objekt/instanser av klasser.
-Kortfattat så ska du implementera grunden för ett system som simulerar artister, skivbolag, användare och album med låtar. 
-Det finns inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
+Syftet med uppgiften är att du ska hantera klasser, relationer mellan klasser samt objekt/instanser av klasser.
+Kortfattat så ska du implementera grunden för ett system som simulerar skivbolag med artister och musik. 
+Det finns nu inget medföljande jest-test - du ska implementera din lösning enligt instruktioner och krav i den här uppgiften.
 Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klasser och objekt och övergripande funktionalitet. 
 Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
