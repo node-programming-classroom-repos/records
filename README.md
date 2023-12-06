@@ -8,12 +8,12 @@ Du kommer att bedömas enligt kraven nedan samt på korrekt användning av klass
 Bedömningen kommer också att ta hänsyn till struktur i din kod, inklusive indentering, namngivning och övergripande struktur.
 
 ## Krav
-![krav](Krav.png)
+![krav](./img/Krav.png)
 
 
 Implementera klasserna enligt nedan:
 
-![klasser](Klasser.png)
+![klasser](./img/Klasser.png)
     
 
     
